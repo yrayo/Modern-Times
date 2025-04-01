@@ -3,69 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Times - Film Review</title>
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
+    <title>Modern Times Film Analysis</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="logo">Modern Times</div>
+    <!-- Navbar with Hamburger Menu -->
+    <nav>
+        <div class="logo">Modern Times Film</div>
         <div class="menu-toggle" id="mobile-menu">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
         </div>
-        <ul class="nav-list">
-            <li><a href="#about">About</a></li>
-            <li><a href="#trailer">Trailer</a></li>
-            <li><a href="#cast">Cast & Crew</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#ratings">Ratings</a></li>
-            <li><a href="#opinion">My Opinion</a></li>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#educational">Educational Value</a></li>
+            <li><a href="#entertainment">Entertainment Value</a></li>
+            <li><a href="#cast">Cast and Director</a></li>
+            <li><a href="#plot">Plot Summary</a></li>
+            <li><a href="#title">Title Page</a></li>
+            <li><button class="mode-toggle" id="mode-toggle">Light/Dark</button></li>
         </ul>
-        <button id="dark-mode-toggle">🌙</button>
     </nav>
 
-    <!-- About Section -->
-    <section id="about" class="fade-in">
-        <h1>Modern Times (1936)</h1>
-        <p>A classic Charlie Chaplin film that critiques industrialization and its impact on human life.</p>
+    <!-- Title Page Section -->
+    <section id="title" class="section">
+        <h1>Modern Times</h1>
+        <p>Release Date: 1936</p>
+        <p>By: Charlie Chaplin</p>
+        <img src="background.jpg" alt="Modern Times" class="background-image">
     </section>
 
-    <!-- Trailer -->
-    <section id="trailer" class="fade-in">
-        <h2>Official Trailer</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/GLeDdzGUTq0" frameborder="0" allowfullscreen></iframe>
+    <!-- Educational Value Section -->
+    <section id="educational" class="section">
+        <h2>Educational Value</h2>
+        <p>Modern Times explores technological advancements in the early 20th century, focusing on industrial automation...</p>
     </section>
 
-    <!-- Cast Section -->
-    <section id="cast" class="fade-in">
-        <h2>Cast & Crew</h2>
-        <p>Charlie Chaplin, Paulette Goddard, Henry Bergman</p>
+    <!-- Entertainment Value Section -->
+    <section id="entertainment" class="section">
+        <h2>Entertainment Value</h2>
+        <p>The film is both comedic and social commentary, with Chaplin's iconic performance providing an engaging experience...</p>
     </section>
 
-    <!-- Gallery -->
-    <section id="gallery" class="fade-in">
-        <h2>Gallery</h2>
-        <div class="gallery-container">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Modern_Times_promo_photo.jpg" alt="Scene from Modern Times">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Chaplin_-_Modern_Times.jpg" alt="Charlie Chaplin in Modern Times">
-        </div>
+    <!-- Cast and Director Section -->
+    <section id="cast" class="section">
+        <h2>Cast and Director</h2>
+        <p>Directed by: Charlie Chaplin</p>
+        <p>Cast: Charlie Chaplin, Paulette Goddard</p>
+        <img src="chaplin.jpg" alt="Charlie Chaplin">
     </section>
 
-    <!-- Ratings -->
-    <section id="ratings" class="fade-in">
-        <h2>Ratings</h2>
-        <p>IMDb: 8.5/10 | Rotten Tomatoes: 98%</p>
+    <!-- Plot Summary Section -->
+    <section id="plot" class="section">
+        <h2>Plot Summary</h2>
+        <p>Set during the Great Depression, Modern Times follows the life of a factory worker who faces the struggles of mass production...</p>
+        <a href="https://www.youtube.com/watch?v=KkG4lAbMfdY">Watch Trailer</a>
     </section>
 
-    <!-- Opinion -->
-    <section id="opinion" class="fade-in">
-        <h2>My Opinion</h2>
-        <p>This film is an insightful critique of automation and capitalism. Chaplin’s comedic genius makes serious topics accessible.</p>
-    </section>
+    <!-- Footer -->
+    <footer>
+        <p>Created by [Your Name]</p>
+    </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
+
